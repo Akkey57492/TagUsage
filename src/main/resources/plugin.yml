@@ -1,0 +1,12 @@
+name: TagUsage
+version: '1.0.0'
+main: tag.usage.tagusage.TagUsage
+api-version: 1.17
+commands:
+  thtag:
+    usage: /thtag <type> <tagname> <username>
+    description: タグの追加と削除の構文を変更
+    permission: thtag.use
+    permission-message: thtagの権限が足りません。
+    aliases:
+      - touhoutag
